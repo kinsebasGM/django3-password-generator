@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+{% load static %}
+<!DOCTYPE html>
+<h1 style="color: aliceblue">This is a page maked by:</h1>
+<p style="color:aliceblue">MINA</p>
+<!--<body style="background-image: url(../static/images/Mina.jpg); background-repeat: no-repeat;">-->
+<body style="background-image: url({% static 'images/Mina.jpg' %}); background-repeat: no-repeat;">
+    <!--<img src="{% static 'images/Mina.jpg' %}" alt="My image">-->
+    <!--<img src="../static/images/Mina.jpg" alt="My image">-->
+</body>
